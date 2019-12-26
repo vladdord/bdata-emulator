@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: device-pusher
+
+bdata:
+  emulator:
+    device-pusher:
+      server-url: http://localhost:8081
+      worker-count: 1000
+      push-timeout: PT1S

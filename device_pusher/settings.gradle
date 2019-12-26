@@ -1,0 +1,5 @@
+rootProject.name = 'device_pusher'
+
+include 'service'
+
+include 'model'
