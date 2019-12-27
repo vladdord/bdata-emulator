@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: aggregator
+
+emulator:
+  aggregator:
+    influx-url: http://192.168.1.42:8086
+    database-name: system_status_info
