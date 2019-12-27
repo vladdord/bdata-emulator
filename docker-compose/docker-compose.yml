@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  proxy:
+    build:
+      context: ../spring-proxy/
+      dockerfile: docker/proxy/Dockerfile
+    ports:
+      - "8081:8081"
+  pusher:
+    build:
+      context: ../device_pusher/
+      dockerfile: docker/pusher/Dockerfile
