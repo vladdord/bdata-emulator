@@ -11,3 +11,7 @@ services:
     build:
       context: ../device_pusher/
       dockerfile: docker/pusher/Dockerfile
+  aggregator:
+    build:
+      context: ../aggregator/
+      dockerfile: docker/aggregator/Dockerfile
