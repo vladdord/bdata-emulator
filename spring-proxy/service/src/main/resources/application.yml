@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-proxy
+server:
+  port: 8081
+
+spring-proxy:
+  service:
+    influxdb-url: http://192.168.1.42:8089
+    influxdb-udp-port: 8090
